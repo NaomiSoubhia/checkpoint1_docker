@@ -62,6 +62,7 @@
 
 	</dependencies>
 	<build>
+		    <finalName>checkpoint1</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
