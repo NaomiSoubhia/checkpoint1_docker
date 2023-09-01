@@ -16,6 +16,6 @@ COPY --from=build /project/target/checkpoint1.jar /checkpoint1/checkpoint1.jar
 
 WORKDIR /checkpoint1
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD java $JAVA_OPTS -jar checkpoint1.jar
